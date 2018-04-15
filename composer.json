@@ -1,5 +1,28 @@
 {
+    "name": "michaelkaefer/oauth2paypal-for-prestashop17",
+    "description": "Enables you in PrestaShop 1.7 to use oauth2-amazon.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Käfer",
+            "email": "michael.kaefer1@gmx.at"
+        }
+    ],
     "require": {
-        "michaelkaefer/oauth2-amazon": "^1.0"
+        "michaelkaefer/oauth2client-for-prestashop17": "^1.0.5"
+    },
+    "keywords": [
+        "php",
+        "oauth2",
+        "oauth",
+        "prestashop",
+        "amazon"
+    ],
+    "autoload": {
+        "psr-4": {
+            "MichaelKaefer\\OAuth2AmazonForPrestashop17\\MichaelKaefer\\OAuth2\\Client\\": [
+                "src/michaelkaefer/oauth2-amazon/src/"
+            ]
+        }
     }
 }
