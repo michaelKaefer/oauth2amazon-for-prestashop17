@@ -1,0 +1,5 @@
+{
+    "require": {
+        "michaelkaefer/oauth2-amazon": "^1.0"
+    }
+}
